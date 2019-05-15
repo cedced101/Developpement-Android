@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <SeekBar
+            android:id="@+id/seekR"
+            android:max="255"
+            android:layout_width="180dp"
+            android:thumb="@drawable/seekr_bg"
+            android:layout_marginBottom="20dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/textSeekR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvalueSeekR"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <SeekBar
+            android:id="@+id/seekG"
+            android:max="255"
+            android:layout_width="180dp"
+            android:thumb="@drawable/seekg_bg"
+            android:layout_marginBottom="20dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/textSeekG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvalueSeekG"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <SeekBar
+            android:id="@+id/seekB"
+            android:layout_width="180dp"
+            android:max="255"
+            android:thumb="@drawable/seekb_bg"
+            android:layout_marginBottom="20dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/textSeekB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvalueSeekB"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnsendbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tEnvoyer"/>
+    <Button
+        android:id="@+id/btnsavebackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tTest"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnrparametre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quitter"/>
+</LinearLayout>

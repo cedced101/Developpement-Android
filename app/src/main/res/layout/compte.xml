@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Project"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/ProjectTextView"
+        android:id="@+id/comptet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textcompte"/>
+    <TextView
+        style="@style/ProjectTextView"
+        android:id="@+id/comptenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/ProjectTextView"
+        android:id="@+id/compteprenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        style="@style/ProjectButton"
+        android:id="@+id/btngoJoindreLobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tgoLobby"/>
+
+    <Button
+        style="@style/ProjectButton"
+        android:id="@+id/btnrInscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quitter"/>
+
+
+</LinearLayout>
